@@ -72,6 +72,7 @@ const removeNote = (title) =>{
 }
 
 const listNotes =() => {
+	//calling loadNotes() method
     const notes = loadNotes()
 
     //console.log(chalk.inverse('Your notes'))
@@ -84,6 +85,7 @@ const listNotes =() => {
 
 /*
 const removeNote = function(title){
+	//calling loadNotes() method
     const notes = loadNotes()
     const notesToKeep = notes.filter(function (note) {
         return note.title === title
@@ -99,6 +101,7 @@ const removeNote = function(title){
 */
 
 const readNote = (title) =>{
+	//calling loadNotes() method
     const notes = loadNotes()
     const note = notes.find((note) => note.title === title)
 
@@ -122,6 +125,7 @@ const saveNotes = function(notes){
 }
 */
 
+//loadNotes() method
 const loadNotes = ()=>{
     try{
         const dataBuffer = fs.readFileSync('notes.json')
