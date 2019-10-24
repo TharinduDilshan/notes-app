@@ -28,6 +28,7 @@ yargs.command({
     }
     */
     handler(argv){
+	//adding a note
         notes.addNote(argv.title,argv.body)
     }
 })
@@ -50,6 +51,7 @@ yargs.command({
     }
     */
     handler(argv){
+	//Removing a note
         notes.removeNote(argv.title)
         console.log('Removing a new note!')
     }
