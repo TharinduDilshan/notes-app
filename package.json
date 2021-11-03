@@ -6,7 +6,7 @@
   "dependencies": {
     "yargs": "^12.0.2",
     "chalk": "^2.4.1",
-    "validator": "^10.8.0"
+    "validator": "^13.7.0"
   },
   "devDependencies": {},
   "scripts": {
